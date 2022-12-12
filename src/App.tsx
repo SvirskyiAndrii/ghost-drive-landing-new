@@ -11,6 +11,7 @@ function App() {
   var date = new Date('02/28/2023 21:00:00');
   var launchDay = date.getTime();
   let timeout: string | number | NodeJS.Timeout | undefined;
+  
   const scrollHandler = useCallback(
     (e: any) => {
       if (!wasScroll) {
