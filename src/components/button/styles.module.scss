@@ -1,0 +1,269 @@
+.wrap {
+  position: absolute;
+  display: inline-block;
+  margin-top: 20px;
+
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5vw 1.5vw;
+    color: #737373;
+    background: #ffffff;
+    text-transform: none;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  &.transparent {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 5px 0 0 20px;
+    height: 2.9735vw;
+    .button {
+      background-color: transparent;
+      color: white;
+      padding: 0.5vw 1vw;
+    }
+  }
+
+  .vertical {
+    position: absolute;
+    height: 0.626vw;
+    width: 0.039125vw;
+    background: white;
+  }
+  .diagonal {
+    position: absolute;
+    height: 0.039125vw;
+    width: 0.4695vw;
+    background: white;
+  }
+  .horizontal {
+    position: absolute;
+    width: 0.626vw;
+    height: 0.039125vw;
+    background: white;
+  }
+
+  .LT {
+    position: absolute;
+    top: -0.39125vw;
+    left: -0.39125vw;
+
+    .vertical {
+      top: 0.313vw;
+      height: 0.313vw;
+    }
+    .diagonal {
+      left: -0.039125vw;
+      top: 0.1565vw;
+      transform: rotate(-45deg);
+    }
+    .horizontal {
+      left: 0.313vw;
+      width: 0.313vw;
+    }
+  }
+  .LB {
+    position: absolute;
+    bottom: -0.39125vw;
+    left: -0.39125vw;
+
+    .vertical {
+      top: -0.626vw;
+    }
+  }
+  .RT {
+    position: absolute;
+    right: -0.39125vw;
+    top: -0.39125vw;
+
+    .horizontal {
+      right: 0px;
+    }
+  }
+  .RB {
+    position: absolute;
+    right: -0.39125vw;
+    bottom: -0.39125vw;
+
+    .horizontal {
+      right: 0px;
+    }
+    .vertical {
+      top: -0.626vw;
+    }
+  }
+  &.bordered {
+    .L {
+      position: absolute;
+      bottom: -0.39125vw;
+      left: -0.39125vw;
+      height: calc(100% + 0.39125vw);
+      width: 0.039125vw;
+      background: white;
+    }
+    .R {
+      position: absolute;
+      bottom: -0.39125vw;
+      right: -0.430375vw;
+      height: calc(100% + 0.39125vw);
+      width: 0.039125vw;
+      background: white;
+    }
+  }
+  &.black {
+    .button {
+      color: #020202;
+    }
+    .vertical {
+      background: #020202;
+    }
+    .diagonal {
+      background: #020202;
+    }
+    .horizontal {
+      background: #020202;
+    }
+
+    &.bordered {
+      .L {
+        background: #020202;
+      }
+      .R {
+        background: #020202;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .wrap {
+    position: absolute;
+    display: inline-block;
+    margin-top: 20px;
+    &.transparent {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      margin: 25px 0 0 37px;
+      height: 5.9735vw;
+    }
+    .button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5vw 1.5vw;
+      color: #adadad;
+      background: #ffffff;
+      text-transform: none;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .vertical {
+      position: absolute;
+      height: 2.1328vw;
+      width: 0.1333vw;
+      background: white;
+    }
+    .diagonal {
+      position: absolute;
+      height: 0.1333vw;
+      width: 1.5996vw;
+      background: white;
+    }
+    .horizontal {
+      position: absolute;
+      width: 2.1328vw;
+      height: 0.1333vw;
+      background: white;
+    }
+
+    .LT {
+      position: absolute;
+      top: -1.333vw;
+      left: -1.333vw;
+
+      .vertical {
+        top: 1.0664vw;
+        height: 1.0664vw;
+      }
+      .diagonal {
+        left: -0.1333vw;
+        top: 0.5332vw;
+        transform: rotate(-45deg);
+      }
+      .horizontal {
+        left: 1.0664vw;
+        width: 1.0664vw;
+      }
+    }
+    .LB {
+      position: absolute;
+      bottom: -1.333vw;
+      left: -1.333vw;
+
+      .vertical {
+        top: -2.1328vw;
+      }
+    }
+    .RT {
+      position: absolute;
+      right: -1.333vw;
+      top: -1.333vw;
+
+      .horizontal {
+        right: 0px;
+      }
+    }
+    .RB {
+      position: absolute;
+      right: -1.333vw;
+      bottom: -1.333vw;
+
+      .horizontal {
+        right: 0px;
+      }
+      .vertical {
+        top: -2.1328vw;
+      }
+    }
+    &.bordered {
+      .L {
+        position: absolute;
+        bottom: -1.333vw;
+        left: -1.333vw;
+        height: calc(100% + 1.333vw);
+        width: 0.1333vw;
+        background: white;
+      }
+      .R {
+        position: absolute;
+        bottom: -1.333vw;
+        right: -1.4663vw;
+        height: calc(100% + 1.333vw);
+        width: 0.1333vw;
+        background: white;
+      }
+    }
+  }
+}
+.button {
+  .glitch {
+    display: none;
+  }
+  .buttonText {
+    display: block;
+  }
+}
+.button:hover {
+  .glitch {
+    display: block;
+  }
+  .buttonText {
+    display: none;
+  }
+}

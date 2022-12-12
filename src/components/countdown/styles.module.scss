@@ -1,0 +1,19 @@
+.countdown {
+  margin-bottom: 0.39125vw;
+  animation-name: countdown;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  color: #e0e0e0;
+}
+
+@keyframes countdown {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #c2c2c2;
+  }
+  100% {
+    color: white;
+  }
+}
