@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ghost-drive-landing-new/static/css/main.b36b19fe.css",
-    "main.js": "/ghost-drive-landing-new/static/js/main.d3206df7.js",
+    "main.css": "/ghost-drive-landing-new/static/css/main.f4e93743.css",
+    "main.js": "/ghost-drive-landing-new/static/js/main.1c9f5817.js",
     "static/media/background.png": "/ghost-drive-landing-new/static/media/background.d27813458e54673d6df0.png",
     "static/media/map.svg": "/ghost-drive-landing-new/static/media/map.82c26b311e9fc4746330.svg",
     "static/media/digital_background.png": "/ghost-drive-landing-new/static/media/digital_background.8ee4576600040467ffd0.png",
@@ -60,11 +60,11 @@
     "static/media/angle.svg": "/ghost-drive-landing-new/static/media/angle.1cb946d2772db08080ba.svg",
     "static/media/triangle.svg": "/ghost-drive-landing-new/static/media/triangle.dc2d13d9fee9eb4e2777.svg",
     "static/media/map_angle2.svg": "/ghost-drive-landing-new/static/media/map_angle2.c261089d33dcdeeabe04.svg",
-    "main.b36b19fe.css.map": "/ghost-drive-landing-new/static/css/main.b36b19fe.css.map",
-    "main.d3206df7.js.map": "/ghost-drive-landing-new/static/js/main.d3206df7.js.map"
+    "main.f4e93743.css.map": "/ghost-drive-landing-new/static/css/main.f4e93743.css.map",
+    "main.1c9f5817.js.map": "/ghost-drive-landing-new/static/js/main.1c9f5817.js.map"
   },
   "entrypoints": [
-    "static/css/main.b36b19fe.css",
-    "static/js/main.d3206df7.js"
+    "static/css/main.f4e93743.css",
+    "static/js/main.1c9f5817.js"
   ]
 }
