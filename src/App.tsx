@@ -11,7 +11,7 @@ function App() {
   var date = new Date('02/28/2023 21:00:00');
   var launchDay = date.getTime();
   let timeout: string | number | NodeJS.Timeout | undefined;
-  
+
   const scrollHandler = useCallback(
     (e: any) => {
       if (!wasScroll) {
@@ -179,9 +179,6 @@ function App() {
               <div className={`${styles.up} ${styles.contain}`} />
               <div className={styles.text}>MONETIZE</div>
               <div className={`${styles.down} ${styles.contain}`} />
-            </div>
-            <div className={styles.subtitle_main}>
-              DIGITAL ASSETS TOKENIZATION
             </div>
             <div className={styles.images}>
               <div className={`${styles.digital1} ${styles.cover}`}>
