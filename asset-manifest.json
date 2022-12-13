@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ghost-drive-landing-new/static/css/main.f4e93743.css",
-    "main.js": "/ghost-drive-landing-new/static/js/main.1c9f5817.js",
+    "main.css": "/ghost-drive-landing-new/static/css/main.33b840a2.css",
+    "main.js": "/ghost-drive-landing-new/static/js/main.afac0f45.js",
     "static/media/background.png": "/ghost-drive-landing-new/static/media/background.d27813458e54673d6df0.png",
     "static/media/map.svg": "/ghost-drive-landing-new/static/media/map.82c26b311e9fc4746330.svg",
     "static/media/digital_background.png": "/ghost-drive-landing-new/static/media/digital_background.8ee4576600040467ffd0.png",
@@ -50,7 +50,6 @@
     "static/media/own_data_line.svg": "/ghost-drive-landing-new/static/media/own_data_line.ff429aa24a81311438ae.svg",
     "static/media/footer_line.svg": "/ghost-drive-landing-new/static/media/footer_line.603c7040387e97ab8168.svg",
     "static/media/arrow.svg": "/ghost-drive-landing-new/static/media/arrow.6f6c9b8bd972d40acd2d.svg",
-    "static/media/dropdown_line.svg": "/ghost-drive-landing-new/static/media/dropdown_line.2a3ae7b7d138d4d7ead0.svg",
     "static/media/ai_angle_left.svg": "/ghost-drive-landing-new/static/media/ai_angle_left.93f83fe6e1e742021308.svg",
     "static/media/ai_angle_right.svg": "/ghost-drive-landing-new/static/media/ai_angle_right.1a7cc70771803dd0ef7f.svg",
     "static/media/map_angle1.svg": "/ghost-drive-landing-new/static/media/map_angle1.ae9d1753778071d0e244.svg",
@@ -60,11 +59,11 @@
     "static/media/angle.svg": "/ghost-drive-landing-new/static/media/angle.1cb946d2772db08080ba.svg",
     "static/media/triangle.svg": "/ghost-drive-landing-new/static/media/triangle.dc2d13d9fee9eb4e2777.svg",
     "static/media/map_angle2.svg": "/ghost-drive-landing-new/static/media/map_angle2.c261089d33dcdeeabe04.svg",
-    "main.f4e93743.css.map": "/ghost-drive-landing-new/static/css/main.f4e93743.css.map",
-    "main.1c9f5817.js.map": "/ghost-drive-landing-new/static/js/main.1c9f5817.js.map"
+    "main.33b840a2.css.map": "/ghost-drive-landing-new/static/css/main.33b840a2.css.map",
+    "main.afac0f45.js.map": "/ghost-drive-landing-new/static/js/main.afac0f45.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4e93743.css",
-    "static/js/main.1c9f5817.js"
+    "static/css/main.33b840a2.css",
+    "static/js/main.afac0f45.js"
   ]
 }
