@@ -308,11 +308,10 @@
       opacity: 0.7;
     }
     .background {
-      width: 262px;
       height: 281px;
       margin: 0 auto 33px auto;
-      mix-blend-mode: color-burn;
-      background-image: url('./assets/img/upload.png');
+      mix-blend-mode: screen;
+      display: block;
     }
     .block {
       display: flex;
@@ -525,10 +524,10 @@
         }
       }
       .digital1 {
-        width: 125px;
-        height: 111px;
-        mix-blend-mode: multiply;
-        background-image: url('./assets/img/digital-4.png');
+        .digital1_img {
+          height: 111px;
+          mix-blend-mode: screen;
+        }
       }
       .digital2 {
         width: 111px;
@@ -658,13 +657,11 @@
     display: flex;
     justify-content: space-between;
     .own_left {
-      mix-blend-mode: multiply;
-      background-image: url('./assets/img/digital_background.png');
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
-      width: 35.2vw;
-      height: 513.85px;
+      mix-blend-mode: screen;
+
+      height: 313.85px;
+      position: relative;
+      left: -150px;
     }
     .own_right {
       text-align: end;
@@ -920,14 +917,10 @@
         }
       }
       .background_first {
-        height: 306px;
-        background-image: url('./assets/img/content_first.png');
-        mix-blend-mode: multiply;
+        mix-blend-mode: screen;
       }
       .background_second {
-        height: 334px;
-        background-image: url('./assets/img/content_second.png');
-        mix-blend-mode: multiply;
+        mix-blend-mode: screen;
       }
       .background_third {
         height: 330px;

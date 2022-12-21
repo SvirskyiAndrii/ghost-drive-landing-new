@@ -1,6 +1,9 @@
 import styles from './styles.module.scss';
 import { useCallback, useEffect, useState } from 'react';
 import gif from './assets/loader.gif';
+import GD_01 from './assets/GD_01_1.gif';
+import GD_02 from './assets/GD_02_1.gif';
+import GD_03 from './assets/GD_03.gif';
 import { CountDown } from 'components/countdown';
 import { Dropdown } from 'components/dropdown';
 
@@ -126,7 +129,7 @@ function App() {
             </div>
             <div className={`${styles.line} ${styles.contain}`} />
             <div className={styles.subtitle}>MEET NEYRA</div>
-            <div className={`${styles.background} ${styles.contain}`} />
+            <img src={GD_03} alt='GD_03' className={styles.background} />
             <div className={styles.block}>
               <div className={styles.title_ai}>AI</div>
               <div className={styles.paragraph}>
@@ -182,6 +185,7 @@ function App() {
             </div>
             <div className={styles.images}>
               <div className={`${styles.digital1} ${styles.cover}`}>
+                <img src={GD_02} alt='GD_02' className={styles.digital1_img} />
                 <div>upload</div>
               </div>
               <div className={`${styles.sign} ${styles.cover}`}>+</div>
@@ -245,7 +249,8 @@ function App() {
               </div>
             </div>
             <div className={styles.own_data}>
-              <div className={styles.own_left} />
+              {/* <div className={styles.own_left} /> */}
+              <img src={GD_01} alt='GD_01' className={styles.own_left} />
               <div className={styles.own_right}>
                 <div className={styles.own_title}>
                   OWN<span>YOUR</span>DATA
@@ -284,7 +289,7 @@ function App() {
                 gateaway.
               </div>
             </div>
-            <div className={`${styles.background_first} ${styles.contain}`} />
+            <img src={GD_02} alt='GD_03' className={styles.background_first} />
             <div className={styles.block}>
               <div className={styles.title}>CREATIVE AI </div>
               <div className={styles.text}>
@@ -308,7 +313,7 @@ function App() {
                 workspace.
               </div>
             </div>
-            <div className={`${styles.background_second} ${styles.contain}`} />
+            <img src={GD_01} alt='GD_03' className={styles.background_first} />
             <div className={styles.block}>
               <div className={styles.title}>data TOKENIZATION</div>
               <div className={styles.text}>
