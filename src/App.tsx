@@ -344,6 +344,7 @@ function App() {
                 awards towards the next Web4 convention.
               </div>
             </div>
+            
             <div className={styles.block}>
               <div className={styles.title}>Memberships</div>
               <div className={styles.text}>
