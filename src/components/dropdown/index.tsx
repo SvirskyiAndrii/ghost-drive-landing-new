@@ -1,25 +1,26 @@
 import { useState } from 'react';
 import styles from './styles.module.scss';
+
 const data = [
   {
     id: 'new',
-    title: 'New possibilities with ghostdrive',
-    data: 'We created the first ai folder using ai and web3 technology. Any data you upload to that folder will automatically regenerate new data with more options. image-to-image and text-to-text modes You will be surprised at how much time you will save in the future.',
+    title: 'GhostDrive’s P2P Gen4 Storage',
+    data: 'Finally store your data the Web3 way. GhostDrive P2P GEN4 storage offers you the ultimate solution for decentralized data storage and sharing - giving you access to your data anytime, anywhere.',
   },
   {
     id: 'next',
-    title: 'next gen of WORKSPACES',
-    data: 'We created the first ai folder using ai and web3 technology. Any data you upload to that folder will automatically regenerate new data with more options. image-to-image and text-to-text modes You will be surprised at how much time you will save in the future.',
+    title: 'GhostDrive’s Web3 Collaborative Workspaces',
+    data: 'Work smarter and faster with Web3 Workspace Collaboration, the ultimate tool for teams to collaborate on projects and share ideas.',
   },
   {
     id: 'build',
-    title: 'Build an AI-Driven DATA',
-    data: 'We created the first ai folder using ai and web3 technology. Any data you upload to that folder will automatically regenerate new data with more options. image-to-image and text-to-text modes You will be surprised at how much time you will save in the future.',
+    title: 'GhostDrive’s AI Playground',
+    data: "Create your projects in GhostDrive's AI PLAYGROUND, the ultimate tool for creating stunning images, writing with powerful tools, and upscaling images instantly.",
   },
   {
     id: 'data',
-    title: 'DATA COMMUNICATION and security',
-    data: 'We created the first ai folder using ai and web3 technology. Any data you upload to that folder will automatically regenerate new data with more options. image-to-image and text-to-text modes You will be surprised at how much time you will save in the future.',
+    title: 'GhostDrive’s Digital Asset Tokenization Engine',
+    data: 'Tokenize your digital assets with a click of a button. GhostDrive’s fully integrated Digital Asset Tokenization Engine makes it possible for you to create your digital asset and directly upload your digital asset on digital asset marketplaces.',
   },
 ];
 
@@ -30,6 +31,7 @@ export const Dropdown = () => {
       {data.map(({ id, title, data }) => {
         return (
           <div key={id} className={styles.container}>
+            {opened === id && <div className={styles.line} />}
             <div
               className={`${styles.title} ${
                 opened === id ? styles.opened : styles.closed
@@ -46,7 +48,6 @@ export const Dropdown = () => {
             </div>
             {opened === id && (
               <div className={styles.data}>
-                <div className={styles.line} />
                 <div>{data}</div>
               </div>
             )}

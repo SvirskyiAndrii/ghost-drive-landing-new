@@ -76,27 +76,24 @@ function App() {
             <div className={`${styles.button} ${styles.contain}`}></div>
           </header>
           <div className={styles.ghostdrive}>
-            <h1 className={styles.title}>GHOSTDRIVE</h1>
+            <h1 className={styles.ghostdrive_title}>GHOSTDRIVE</h1>
+            <div className={styles.subtitle}>
+              the next-generation OF web3 STORAGE
+            </div>
             <div className={`${styles.line} ${styles.contain}`} />
-            <div className={styles.subtitle}>INVITES ONLY</div>
+            <div className={styles.nft_pass}>GET NFTPASS</div>
             <div className={styles.wrapper}>
               <div className={styles.cool_button}>
-                <div className={styles.button}>3.23.23</div>
+                <div className={styles.button}>WHITELIST</div>
               </div>
             </div>
-            <div className={styles.experience}>NEW EXPERIENCE</div>
           </div>
           <div className={styles.ghostdrive_mobile}>
-            <div className={styles.background} />
             <h1 className={styles.title}>GHOSTDRIVE</h1>
             <div className={styles.paragraph}>
-              Your data, your privacy, your rules, your ideas
+              Your data, your privacy, your rules.
             </div>
-            <div className={styles.time}>time to launch:</div>
-            <div className={styles.days}>
-              <CountDown timestamp={launchDay} />
-            </div>
-            <div className={styles.access}>Early bird access:</div>
+
             <div className={styles.wrapper}>
               <div className={styles.cool_button}>
                 <div className={styles.button}>whitelist</div>
@@ -104,6 +101,9 @@ function App() {
             </div>
           </div>
           <div className={styles.scale}>
+            <div className={styles.scale_title}>
+              YOUR DATA. YOUR RULES. YOUR PRIVACY
+            </div>
             <div className={styles.backgrounds}>
               <div className={`${styles.first} ${styles.contain}`} />
               <div className={`${styles.second} ${styles.contain}`} />
@@ -119,8 +119,9 @@ function App() {
             <div className={`${styles.line} ${styles.contain}`} />
           </div>
           <div className={styles.generate}>
+            <div className={styles.generate_title}>AI playground</div>
             <div className={styles.title}>
-              <div className={styles.text}>upload</div>
+              <div className={styles.text}>dream</div>
               <div className={`${styles.right} ${styles.contain}`} />
               <div className={styles.text}>create</div>
               <div className={`${styles.up} ${styles.contain}`} />
@@ -139,22 +140,18 @@ function App() {
             </div>
           </div>
           <div className={styles.p2p}>
-            <div className={styles.title_main}>p2p NETWORK</div>
+            <div className={styles.title_main}>gen4 P2P NETWORK</div>
+            <div className={styles.p2p_subtitle}>
+              Faster, more secure, and more private than ever before!
+            </div>
             <div className={styles.background_wrapper}>
               <div className={`${styles.background} ${styles.contain}`} />
-            </div>
-            <div className={styles.captions}>
-              <div className={styles.users}>21,000,000 LIMITED USERS</div>
-              <div className={styles.gens}>
-                <div>GEN3</div>
-                <div>GEN4</div>
-              </div>
             </div>
             <div className={styles.blocks}>
               <div className={styles.block}>
                 <div className={styles.title}>peer to peer </div>
                 <div className={styles.paragraph}>
-                  P2P approach to dramatically increase the data exchange speed,
+                  P2P approach to dramatically increase the data exchange speed,
                   eliminating the big sized files
                 </div>
               </div>
@@ -162,108 +159,62 @@ function App() {
                 <div className={styles.title}>AGNOSTIC system</div>
                 <div className={styles.paragraph}>
                   Existing on multiple blockchains simultaneously, the
-                  GhostDRIVE Network is highly versatile.
-                </div>
-              </div>
-              <div className={styles.block}>
-                <div className={styles.title}>GEN4 MISSION</div>
-                <div className={styles.paragraph}>
-                  built-in functionality for managing online communities,
-                  preparing group projects, securely sharing.
+                  GhostDRIVE Network is highly versatile.
                 </div>
               </div>
             </div>
           </div>
           <div className={styles.digital}>
-            <div className={styles.title_main}>
-              <div className={styles.text}>GENERATE</div>
+            <div className={styles.digital_title}>DATA TOKENIZATION</div>
+            <div className={styles.title}>
+              <div className={styles.text}>UPLOad</div>
               <div className={`${styles.right} ${styles.contain}`} />
-              <div className={styles.text}>TOKENIZE</div>
+              <div className={styles.text}>TOkeNIZE</div>
               <div className={`${styles.up} ${styles.contain}`} />
-              <div className={styles.text}>MONETIZE</div>
+              <div className={styles.text}>MONETIZE </div>
               <div className={`${styles.down} ${styles.contain}`} />
             </div>
-            <div className={styles.images}>
-              <div className={`${styles.digital1} ${styles.cover}`}>
-                <img src={GD_02} alt='GD_02' className={styles.digital1_img} />
-                <div>upload</div>
-              </div>
-              <div className={`${styles.sign} ${styles.cover}`}>+</div>
-              <div className={`${styles.digital2} ${styles.cover}`} />
-              <div className={`${styles.sign} ${styles.cover}`}>=</div>
-              <div className={`${styles.digital3} ${styles.cover}`}>
-                <div>AI DATA</div>
-              </div>
-            </div>
+            <img src={GD_02} alt='GD_02' className={styles.digital_img} />
             <div className={styles.differently}>
               <div className={styles.differently_title}>
-                WHAT WE DO DIFFERENTLY?
+                GHOSTDRIVE is the future
               </div>
               <div className={styles.webs}>
                 <div className={styles.items}>
                   <div className={styles.item}>
-                    <div className={styles.date}>10.30.17</div>
-                    <div className={styles.arrow} />
-                    <div className={styles.type}>r&D</div>
-                  </div>
-                  <div className={styles.item}>
-                    <div className={styles.date}>2.22.22</div>
-                    <div className={styles.arrow} />
-                    <div className={styles.type}>WEb2</div>
-                  </div>
-                  <div className={styles.item}>
                     <div className={styles.date}>12.22.22</div>
                     <div className={styles.arrow} />
-                    <div className={styles.type}>WEb3</div>
+                    <div className={styles.type}>
+                      WEB3<span>INVITES ONLY</span>
+                    </div>
                   </div>
                   <div className={styles.item}>
-                    <div className={styles.date}>03.23.23</div>
+                    <div className={styles.date}>3.23.23</div>
                     <div className={styles.arrow} />
-                    <div className={styles.type}>WEb4</div>
+                    <div className={styles.type}>
+                      OPEN WEb3+<span>PUBLIC</span>
+                    </div>
+                  </div>
+                  <div className={styles.item}>
+                    <div className={styles.date}>4.24.24</div>
+                    <div className={styles.arrow} />
+                    <div className={styles.type}>
+                      OWN CHAIN<span>DAG BLOCKCHAIN</span>
+                    </div>
+                  </div>
+                  <div className={styles.item}>
+                    <div className={styles.date}>05.25.25</div>
+                    <div className={styles.arrow} />
+                    <div className={styles.type}>
+                      WEB4<span>METAVERSE</span>
+                    </div>
                   </div>
                 </div>
                 <div className={`${styles.progress} ${styles.cover}`} />
               </div>
               <Dropdown />
-              <div className={styles.ribbon}>
-                <div className={styles.partner}>
-                  <div className={`${styles.ipfs} ${styles.contain}`} />
-                  <div className={styles.company}>ipfs cluster</div>
-                </div>
-                <div className={styles.partner}>
-                  <div className={`${styles.cosmos} ${styles.contain}`} />
-                  <div className={styles.company}>cosmos</div>
-                </div>
-                <div className={styles.partner}>
-                  <div className={`${styles.polygon} ${styles.contain}`} />
-                  <div className={styles.company}>polygon</div>
-                </div>
-                <div className={styles.partner}>
-                  <div className={`${styles.binance} ${styles.contain}`} />
-                  <div className={styles.company}>binance chain</div>
-                </div>
-                <div className={styles.partner}>
-                  <div className={`${styles.ethereum} ${styles.contain}`} />
-                  <div className={styles.company}>Ethereum</div>
-                </div>
-              </div>
-            </div>
-            <div className={styles.own_data}>
-              {/* <div className={styles.own_left} /> */}
-              <img src={GD_01} alt='GD_01' className={styles.own_left} />
-              <div className={styles.own_right}>
-                <div className={styles.own_title}>
-                  OWN<span>YOUR</span>DATA
-                </div>
-                <div className={styles.own_item}>web3</div>
-                <div className={styles.own_item}>GHOST IPFS</div>
-                <div className={styles.own_item}>DATA WITH DAO</div>
-                <div className={styles.own_item}>blockchain agnostic</div>
-                <div className={styles.own_item}>GEOID, VOICEID, FACEID</div>
-              </div>
             </div>
           </div>
-
           <div className={styles.content_mobile}>
             <div className={styles.block}>
               <div className={styles.title}>WEB3 STORAGE</div>
@@ -338,18 +289,19 @@ function App() {
             </div>
             <div className={`${styles.background_third} ${styles.contain}`} />
             <div className={styles.block}>
+              <div className={styles.title}>NFT PASS</div>
+              <div className={styles.text}>
+                An NFT access pass is required to gain access to GhostDrive.We
+                are releasing 21,000 invitation-only Blue Whale NFT passes by Q2
+                2023.
+              </div>
+            </div>
+
+            <div className={styles.block}>
               <div className={styles.title}>Rewards</div>
               <div className={styles.text}>
                 For each useful comment, bug report, or suggestion you will earn
                 awards towards the next Web4 convention.
-              </div>
-            </div>
-            
-            <div className={styles.block}>
-              <div className={styles.title}>Memberships</div>
-              <div className={styles.text}>
-                Fully customized user experience, to drive fast, scalable
-                delivery of key modules mobile customers expect.
               </div>
             </div>
             <div className={styles.block}>
@@ -360,12 +312,39 @@ function App() {
                 on every continent.
               </div>
             </div>
-            <div className={`${styles.background_fourth} ${styles.contain}`} />
+            <div></div>
           </div>
+          <div className={styles.ribbon}>
+            <div className={styles.partner}>
+              <div className={`${styles.ipfs} ${styles.contain}`} />
+              <div className={styles.company}>ipfs</div>
+            </div>
+            <div className={styles.partner}>
+              <div className={`${styles.binance} ${styles.contain}`} />
+              <div className={styles.company}>binance </div>
+            </div>
+            <div className={styles.partner}>
+              <div className={`${styles.polygon} ${styles.contain}`} />
+              <div className={styles.company}>polygon</div>
+            </div>
+            <div className={styles.partner}>
+              <div className={`${styles.ethereum} ${styles.contain}`} />
+              <div className={styles.company}>Ethereum</div>
+            </div>
+            <div className={`${styles.partner} ${styles.partner_cosmos}`}>
+              <div className={`${styles.cosmos} ${styles.contain}`} />
+              <div className={styles.company}>cosmos</div>
+            </div>
+          </div>
+          <div className={styles.own_data}>
+            <div className={styles.own_title}>
+              OWN <span>YOUR</span> DATA
+            </div>
+            <img src={GD_01} alt='GD_01' className={styles.own_image} />
+          </div>
+
           <footer className={styles.footer}>
             <div className={`${styles.top} ${styles.contain}`} />
-            <div className={styles.footer_title}>tech partners</div>
-
             <div className={styles.logo}>
               <div className={`${styles.icon} ${styles.cover}`} />
               <div className={styles.company}>GHOSTDRIVE</div>
