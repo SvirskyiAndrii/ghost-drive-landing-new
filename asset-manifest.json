@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/ghost-drive-landing-new/static/css/main.33b840a2.css",
-    "main.js": "/ghost-drive-landing-new/static/js/main.afac0f45.js",
+    "main.css": "/ghost-drive-landing-new/static/css/main.f1d9344e.css",
+    "main.js": "/ghost-drive-landing-new/static/js/main.01653da5.js",
+    "static/media/GD_01_1.gif": "/ghost-drive-landing-new/static/media/GD_01_1.134ac9244056ee319a35.gif",
+    "static/media/GD_02_1.gif": "/ghost-drive-landing-new/static/media/GD_02_1.8c0f21f48e927baa5085.gif",
+    "static/media/GD_03.gif": "/ghost-drive-landing-new/static/media/GD_03.bcfc95b11eab23d9914b.gif",
     "static/media/background.png": "/ghost-drive-landing-new/static/media/background.d27813458e54673d6df0.png",
     "static/media/map.svg": "/ghost-drive-landing-new/static/media/map.82c26b311e9fc4746330.svg",
-    "static/media/digital_background.png": "/ghost-drive-landing-new/static/media/digital_background.8ee4576600040467ffd0.png",
     "static/media/header.png": "/ghost-drive-landing-new/static/media/header.ba9a307202208e777999.png",
     "static/media/loader.gif": "/ghost-drive-landing-new/static/media/loader.4559bcf3274a4211cfd0.gif",
-    "static/media/content_second.png": "/ghost-drive-landing-new/static/media/content_second.30c51530068564efcb6b.png",
     "static/media/header_mobile.png": "/ghost-drive-landing-new/static/media/header_mobile.ab5788dc8d52a3d47f43.png",
     "static/media/content_fourth.png": "/ghost-drive-landing-new/static/media/content_fourth.885133f12f13ff131e7b.png",
     "static/media/ibm-plex-mono-v12-latin-regular.svg": "/ghost-drive-landing-new/static/media/ibm-plex-mono-v12-latin-regular.9bb235b1d6bf1f4a174f.svg",
-    "static/media/content_first.png": "/ghost-drive-landing-new/static/media/content_first.8a258b6e95bc08fe7740.png",
     "static/media/ibm-plex-mono-v12-latin-500.svg": "/ghost-drive-landing-new/static/media/ibm-plex-mono-v12-latin-500.0ccb701c5fccb12d4fc1.svg",
-    "static/media/upload.png": "/ghost-drive-landing-new/static/media/upload.0bdbdfd69b5d7673fdf5.png",
     "static/media/content_third.png": "/ghost-drive-landing-new/static/media/content_third.5666baede2738579d633.png",
     "static/media/ibm-plex-mono-v12-latin-500.ttf": "/ghost-drive-landing-new/static/media/ibm-plex-mono-v12-latin-500.854dcba30179f4fb535f.ttf",
     "static/media/ibm-plex-mono-v12-latin-regular.ttf": "/ghost-drive-landing-new/static/media/ibm-plex-mono-v12-latin-regular.7c469e4bd6aad01a04bd.ttf",
@@ -22,7 +21,6 @@
     "static/media/ibm-plex-mono-v12-latin-500.eot": "/ghost-drive-landing-new/static/media/ibm-plex-mono-v12-latin-500.0354ff237efa90253de9.eot",
     "static/media/ibm-plex-mono-v12-latin-regular.eot": "/ghost-drive-landing-new/static/media/ibm-plex-mono-v12-latin-regular.83f7453e766cb0e38410.eot",
     "static/media/ibm-plex-mono-v12-latin-500.woff2": "/ghost-drive-landing-new/static/media/ibm-plex-mono-v12-latin-500.5fed0dbf4fed4f9ace11.woff2",
-    "static/media/digital-4.png": "/ghost-drive-landing-new/static/media/digital-4.b36c94d25ebd9f53f8ad.png",
     "static/media/digital-1.png": "/ghost-drive-landing-new/static/media/digital-1.a0c9369e78c61bbfbe24.png",
     "static/media/ibm-plex-mono-v12-latin-regular.woff2": "/ghost-drive-landing-new/static/media/ibm-plex-mono-v12-latin-regular.08db3dc2ed5beb5e6d48.woff2",
     "static/media/YouTube.svg": "/ghost-drive-landing-new/static/media/YouTube.daf5187068c6b71da423.svg",
@@ -59,11 +57,11 @@
     "static/media/angle.svg": "/ghost-drive-landing-new/static/media/angle.1cb946d2772db08080ba.svg",
     "static/media/triangle.svg": "/ghost-drive-landing-new/static/media/triangle.dc2d13d9fee9eb4e2777.svg",
     "static/media/map_angle2.svg": "/ghost-drive-landing-new/static/media/map_angle2.c261089d33dcdeeabe04.svg",
-    "main.33b840a2.css.map": "/ghost-drive-landing-new/static/css/main.33b840a2.css.map",
-    "main.afac0f45.js.map": "/ghost-drive-landing-new/static/js/main.afac0f45.js.map"
+    "main.f1d9344e.css.map": "/ghost-drive-landing-new/static/css/main.f1d9344e.css.map",
+    "main.01653da5.js.map": "/ghost-drive-landing-new/static/js/main.01653da5.js.map"
   },
   "entrypoints": [
-    "static/css/main.33b840a2.css",
-    "static/js/main.afac0f45.js"
+    "static/css/main.f1d9344e.css",
+    "static/js/main.01653da5.js"
   ]
 }
