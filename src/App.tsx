@@ -1,9 +1,10 @@
 import styles from './styles.module.scss';
 import { useCallback, useEffect, useState } from 'react';
 import gif from './assets/loader.gif';
-import GD_01 from './assets/GD_01_1.gif';
-import GD_02 from './assets/GD_02_1.gif';
-import GD_03 from './assets/GD_03.gif';
+import GD_01 from './assets/GD_01.webm';
+import GD_02 from './assets/GD_02.webm';
+import GD_03 from './assets/GD_03.webm';
+import GD_04 from './assets/GD_04.webm';
 import { CountDown } from 'components/countdown';
 import { Dropdown } from 'components/dropdown';
 
@@ -27,7 +28,7 @@ function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [wasScroll]
   );
-  
+
   useEffect(() => {
     document.addEventListener('scroll', scrollHandler);
 
@@ -39,30 +40,8 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 1500);
+    }, 3500);
   }, []);
-
-  useEffect(() => {
-    if (timeout) {
-      clearTimeout(timeout);
-    }
-    const timer = () => {
-      // eslint-disable-next-line react-hooks/exhaustive-deps
-      timeout = setTimeout(() => {
-        if (!wasScroll) {
-          setGlitch(true);
-        } else {
-          setGlitch(false);
-          setWasScroll(false);
-        }
-        timer();
-      }, 4000);
-    };
-    timer();
-    return () => {
-      clearTimeout(timeout);
-    };
-  }, [wasScroll]);
 
   return (
     <>
@@ -75,8 +54,11 @@ function App() {
         <div className={styles.layout}>
           <header className={styles.header}>
             <div className={`${styles.logo} ${styles.contain}`}></div>
-            <div className={`${styles.img} ${styles.contain}`}></div>
-            <div className={`${styles.button} ${styles.contain}`}></div>
+            {/* @ts-ignore */}
+            <video width='100%' controls={false} autoplay='autoplay' muted loop>
+              <source src={GD_04} type='video/webm' />
+              Sorry, your browser doesn't support videos.
+            </video>
           </header>
           <div className={styles.ghostdrive}>
             <h1 className={styles.ghostdrive_title}>GHOSTDRIVE</h1>
@@ -133,7 +115,11 @@ function App() {
             </div>
             <div className={`${styles.line} ${styles.contain}`} />
             <div className={styles.subtitle}>MEET NEYRA</div>
-            <img src={GD_03} alt='GD_03' className={styles.background} />
+            {/* @ts-ignore */}
+            <video width='100%' controls={false} autoplay='autoplay' muted loop>
+              <source src={GD_02} type='video/webm' />
+              Sorry, your browser doesn't support videos.
+            </video>
             <div className={styles.block}>
               <div className={styles.title_ai}>AI</div>
               <div className={styles.paragraph}>
@@ -177,7 +163,11 @@ function App() {
               <div className={styles.text}>MONETIZE </div>
               <div className={`${styles.down} ${styles.contain}`} />
             </div>
-            <img src={GD_02} alt='GD_02' className={styles.digital_img} />
+            {/* @ts-ignore */}
+            <video width='100%' controls={false} autoplay='autoplay' muted loop>
+              <source src={GD_03} type='video/webm' />
+              Sorry, your browser doesn't support videos.
+            </video>
             <div className={styles.differently}>
               <div className={styles.differently_title}>
                 GHOSTDRIVE is the future
@@ -243,7 +233,11 @@ function App() {
                 gateaway.
               </div>
             </div>
-            <img src={GD_02} alt='GD_03' className={styles.background_first} />
+            {/* @ts-ignore */}
+            <video width='100%' controls={false} autoplay='autoplay' muted loop>
+              <source src={GD_03} type='video/webm' />
+              Sorry, your browser doesn't support videos.
+            </video>
             <div className={styles.block}>
               <div className={styles.title}>CREATIVE AI </div>
               <div className={styles.text}>
@@ -267,7 +261,11 @@ function App() {
                 workspace.
               </div>
             </div>
-            <img src={GD_01} alt='GD_03' className={styles.background_first} />
+            {/* @ts-ignore */}
+            <video width='100%' controls={false} autoplay='autoplay' muted loop>
+              <source src={GD_03} type='video/webm' />
+              Sorry, your browser doesn't support videos.
+            </video>
             <div className={styles.block}>
               <div className={styles.title}>data TOKENIZATION</div>
               <div className={styles.text}>
@@ -343,7 +341,11 @@ function App() {
             <div className={styles.own_title}>
               OWN <span>YOUR</span> DATA
             </div>
-            <img src={GD_01} alt='GD_01' className={styles.own_image} />
+            {/* @ts-ignore */}
+            <video width='100%' controls={false} autoplay='autoplay' muted loop>
+              <source src={GD_01} type='video/webm' />
+              Sorry, your browser doesn't support videos.
+            </video>
           </div>
 
           <footer className={styles.footer}>
