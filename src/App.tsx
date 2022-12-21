@@ -27,6 +27,7 @@ function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [wasScroll]
   );
+  
   useEffect(() => {
     document.addEventListener('scroll', scrollHandler);
 
@@ -34,11 +35,13 @@ function App() {
       document.removeEventListener('scroll', scrollHandler);
     };
   }, [scrollHandler]);
+
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
     }, 1500);
   }, []);
+
   useEffect(() => {
     if (timeout) {
       clearTimeout(timeout);
