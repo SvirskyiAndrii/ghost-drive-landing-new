@@ -306,7 +306,7 @@
     }
     .subtitle {
       margin: 0 0 43px 0;
-      font-size: 0.55vw;
+      font-size: 0.75vw;
       line-height: 150%;
       text-align: center;
       font-weight: 700;
@@ -347,13 +347,18 @@
       }
       .title_ai {
         margin: 0 0 22px 0;
-        font-size: 1.38vw;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.98vw;
         line-height: 150%;
         letter-spacing: 0.06em;
       }
       .paragraph {
         font-family: 'Space Mono';
-        font-size: 0.93530787217vw;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.13530787217vw;
         line-height: 150%;
         letter-spacing: 0.04em;
         text-align: center;
@@ -405,6 +410,9 @@
           margin: 0 0 8px 0;
         }
         .paragraph {
+          font-family: 'Space Mono';
+          font-style: normal;
+          font-weight: 400;
           font-size: 0.83vw;
           line-height: 150%;
           letter-spacing: 0.04em;
@@ -433,6 +441,30 @@
     }
     .text {
       margin: 0 14px 0 0;
+    }
+    .paragraph {
+      font-family: 'Space Mono';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.13530787217vw;
+      line-height: 150%;
+      letter-spacing: 0.04em;
+      text-align: center;
+      width: 31.1769290725vw;
+      margin: 0 auto 110px;
+    }
+    .subtitle {
+      margin: 0 0 43px 0;
+      font-size: 0.75vw;
+      line-height: 150%;
+      text-align: center;
+      font-weight: 700;
+    }
+    .line {
+      width: 2px;
+      height: 55px;
+      margin: 0 auto 11px auto;
+      background-image: url('./assets/img/line_nft_pass.svg');
     }
     .title {
       margin: 0 0 49px 0;
@@ -799,7 +831,7 @@
         font-size: 28.2188px;
         line-height: 120%;
         letter-spacing: 0.04em;
-        color: #ffffff;
+        color: #000000;
         span {
           color: #95e8e3;
         }
@@ -813,7 +845,7 @@
     .ghostdrive_mobile {
       display: block;
       position: relative;
-      margin: 0 0 132px 0;
+      margin: 0 0 15px 0;
       padding: 0 36px;
       .title {
         font-family: 'IBM Plex Mono';
@@ -825,6 +857,9 @@
         margin: 0 0 20px 0;
       }
       .paragraph {
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
         font-size: 12px;
         font-weight: 500;
         margin: 0 0 15px 0;
@@ -960,4 +995,31 @@
       }
     }
   }
+}
+
+.videoWrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 480px) {
+  video {
+    width: 100%;
+
+    &.videoTop {
+      width: 400px;
+    }
+  }
+}
+.videoTop {
+  position: absolute;
+  width: 700px;
+  z-index: -1;
+}
+
+.mobileSvgLines {
+  width: 344.86px;
+  height: 344.86px;
+  margin-top: 12px;
+  background-image: url('./assets/img/mobileLines.svg');
 }

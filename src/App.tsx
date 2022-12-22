@@ -1,3 +1,4 @@
+// @ts-nocheck
 import styles from './styles.module.scss';
 import { useCallback, useEffect, useState } from 'react';
 import gif from './assets/loader.gif';
@@ -11,7 +12,7 @@ import { Dropdown } from 'components/dropdown';
 function App() {
   const [wasScroll, setWasScroll] = useState(true);
   const [glitch, setGlitch] = useState(false);
-  const [isLoading, setLoading] = useState(true);
+  const [isLoading, setLoading] = useState(false);
   var date = new Date('02/28/2023 21:00:00');
   var launchDay = date.getTime();
   let timeout: string | number | NodeJS.Timeout | undefined;
@@ -37,12 +38,6 @@ function App() {
     };
   }, [scrollHandler]);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 3500);
-  }, []);
-
   return (
     <>
       <div
@@ -54,8 +49,15 @@ function App() {
         <div className={styles.layout}>
           <header className={styles.header}>
             <div className={`${styles.logo} ${styles.contain}`}></div>
-            {/* @ts-ignore */}
-            <video width='100%' controls={false} autoplay='autoplay' muted loop>
+
+            <video
+              className={styles.videoTop}
+              width='100%'
+              controls={false}
+              autoPlay='autoplay'
+              muted
+              loop
+            >
               <source src={GD_04} type='video/webm' />
               Sorry, your browser doesn't support videos.
             </video>
@@ -84,6 +86,7 @@ function App() {
                 <div className={styles.button}>whitelist</div>
               </div>
             </div>
+            <div className={styles.mobileSvgLines}></div>
           </div>
           <div className={styles.scale}>
             <div className={styles.scale_title}>
@@ -115,11 +118,18 @@ function App() {
             </div>
             <div className={`${styles.line} ${styles.contain}`} />
             <div className={styles.subtitle}>MEET NEYRA</div>
-            {/* @ts-ignore */}
-            <video width='100%' controls={false} autoplay='autoplay' muted loop>
-              <source src={GD_02} type='video/webm' />
-              Sorry, your browser doesn't support videos.
-            </video>
+            <div className={styles.videoWrap}>
+              <video
+                width='50%'
+                controls={false}
+                autoPlay='autoplay'
+                muted
+                loop
+              >
+                <source src={GD_02} type='video/webm' />
+                Sorry, your browser doesn't support videos.
+              </video>
+            </div>
             <div className={styles.block}>
               <div className={styles.title_ai}>AI</div>
               <div className={styles.paragraph}>
@@ -163,11 +173,24 @@ function App() {
               <div className={styles.text}>MONETIZE </div>
               <div className={`${styles.down} ${styles.contain}`} />
             </div>
-            {/* @ts-ignore */}
-            <video width='100%' controls={false} autoplay='autoplay' muted loop>
-              <source src={GD_03} type='video/webm' />
-              Sorry, your browser doesn't support videos.
-            </video>
+            <div className={`${styles.line} ${styles.contain}`} />
+            <div className={styles.subtitle}>DIGITAL ASSETS</div>
+            <div className={styles.videoWrap}>
+              <video
+                width='50%'
+                controls={false}
+                autoPlay='autoplay'
+                muted
+                loop
+              >
+                <source src={GD_03} type='video/webm' />
+                Sorry, your browser doesn't support videos.
+              </video>
+            </div>
+            <div className={styles.paragraph}>
+              TOKENIZE YOUR DIGITAL ASSETS WITH A CLICK OF A BUTTON.
+              GHOSTDRIVE’S FULLY INTEGRATED DIGITAL ASSET TOKENIZATION ENGINE
+            </div>
             <div className={styles.differently}>
               <div className={styles.differently_title}>
                 GHOSTDRIVE is the future
@@ -175,7 +198,7 @@ function App() {
               <div className={styles.webs}>
                 <div className={styles.items}>
                   <div className={styles.item}>
-                    <div className={styles.date}>12.22.22</div>
+                    <div className={styles.date}>Activate</div>
                     <div className={styles.arrow} />
                     <div className={styles.type}>
                       WEB3<span>INVITES ONLY</span>
@@ -233,11 +256,18 @@ function App() {
                 gateaway.
               </div>
             </div>
-            {/* @ts-ignore */}
-            <video width='100%' controls={false} autoplay='autoplay' muted loop>
-              <source src={GD_03} type='video/webm' />
-              Sorry, your browser doesn't support videos.
-            </video>
+            <div className={styles.videoWrap}>
+              <video
+                width='50%'
+                controls={false}
+                autoPlay='autoplay'
+                muted
+                loop
+              >
+                <source src={GD_03} type='video/webm' />
+                Sorry, your browser doesn't support videos.
+              </video>
+            </div>
             <div className={styles.block}>
               <div className={styles.title}>CREATIVE AI </div>
               <div className={styles.text}>
@@ -261,11 +291,18 @@ function App() {
                 workspace.
               </div>
             </div>
-            {/* @ts-ignore */}
-            <video width='100%' controls={false} autoplay='autoplay' muted loop>
-              <source src={GD_03} type='video/webm' />
-              Sorry, your browser doesn't support videos.
-            </video>
+            <div className={styles.videoWrap}>
+              <video
+                width='50%'
+                controls={false}
+                autoPlay='autoplay'
+                muted
+                loop
+              >
+                <source src={GD_03} type='video/webm' />
+                Sorry, your browser doesn't support videos.
+              </video>
+            </div>
             <div className={styles.block}>
               <div className={styles.title}>data TOKENIZATION</div>
               <div className={styles.text}>
@@ -288,7 +325,7 @@ function App() {
                 control.Users can instantly mint, tokenize and sell NFT anyware.
               </div>
             </div>
-            <div className={`${styles.background_third} ${styles.contain}`} />
+            {/* <div className={`${styles.background_third} ${styles.contain}`} /> replace */}
             <div className={styles.block}>
               <div className={styles.title}>NFT PASS</div>
               <div className={styles.text}>
@@ -341,11 +378,18 @@ function App() {
             <div className={styles.own_title}>
               OWN <span>YOUR</span> DATA
             </div>
-            {/* @ts-ignore */}
-            <video width='100%' controls={false} autoplay='autoplay' muted loop>
-              <source src={GD_01} type='video/webm' />
-              Sorry, your browser doesn't support videos.
-            </video>
+            <div className={styles.videoWrap}>
+              <video
+                width='50%'
+                controls={false}
+                autoPlay='autoplay'
+                muted
+                loop
+              >
+                <source src={GD_01} type='video/webm' />
+                Sorry, your browser doesn't support videos.
+              </video>
+            </div>
           </div>
 
           <footer className={styles.footer}>
@@ -353,7 +397,7 @@ function App() {
             <div className={styles.logo}>
               <div className={`${styles.icon} ${styles.cover}`} />
               <div className={styles.company}>GHOSTDRIVE</div>
-              <div className={styles.date}>12.22.22</div>
+              <div className={styles.date}>Activation</div>
             </div>
             <div className={styles.social_media}>
               <div className={`${styles.discord} ${styles.contain}`} />
