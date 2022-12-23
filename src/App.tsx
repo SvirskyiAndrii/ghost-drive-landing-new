@@ -69,7 +69,10 @@ function App() {
             </div>
             <div className={`${styles.line} ${styles.contain}`} />
             <div className={styles.nft_pass}>GET NFTPASS</div>
-            <a href='https://link.ghostdrive.com/discord' target='_target'>
+            <a
+              href='https://discord.com/channels/956823840741265448/987313511476641912'
+              target='_target'
+            >
               <div className={styles.wrapper}>
                 <div className={styles.cool_button}>
                   <div className={styles.button}>WHITELIST</div>
@@ -82,7 +85,10 @@ function App() {
             <div className={styles.paragraph}>
               Your data, your privacy, your rules.
             </div>
-            <a href='https://link.ghostdrive.com/discord' target='_target'>
+            <a
+              href='https://discord.com/channels/956823840741265448/987313511476641912'
+              target='_target'
+            >
               <div className={styles.wrapper}>
                 <div className={styles.cool_button}>
                   <div className={styles.button}>whitelist</div>
@@ -102,7 +108,10 @@ function App() {
               <div className={`${styles.fifth} ${styles.contain}`} />
               <div className={`${styles.third} ${styles.contain}`} />
             </div>
-            <a href='https://link.ghostdrive.com/discord' target='_target'>
+            <a
+              href='https://discord.com/channels/956823840741265448/987313511476641912'
+              target='_target'
+            >
               <div className={styles.wrapper}>
                 <div className={styles.cool_button}>
                   <div className={styles.button}>whitelist</div>
