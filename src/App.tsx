@@ -69,23 +69,26 @@ function App() {
             </div>
             <div className={`${styles.line} ${styles.contain}`} />
             <div className={styles.nft_pass}>GET NFTPASS</div>
-            <div className={styles.wrapper}>
-              <div className={styles.cool_button}>
-                <div className={styles.button}>WHITELIST</div>
+            <a href='https://link.ghostdrive.com/discord' target='_target'>
+              <div className={styles.wrapper}>
+                <div className={styles.cool_button}>
+                  <div className={styles.button}>WHITELIST</div>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
           <div className={styles.ghostdrive_mobile}>
             <h1 className={styles.title}>GHOSTDRIVE</h1>
             <div className={styles.paragraph}>
               Your data, your privacy, your rules.
             </div>
-
-            <div className={styles.wrapper}>
-              <div className={styles.cool_button}>
-                <div className={styles.button}>whitelist</div>
+            <a href='https://link.ghostdrive.com/discord' target='_target'>
+              <div className={styles.wrapper}>
+                <div className={styles.cool_button}>
+                  <div className={styles.button}>whitelist</div>
+                </div>
               </div>
-            </div>
+            </a>
             <div className={styles.mobileSvgLines}></div>
           </div>
           <div className={styles.scale}>
@@ -99,11 +102,13 @@ function App() {
               <div className={`${styles.fifth} ${styles.contain}`} />
               <div className={`${styles.third} ${styles.contain}`} />
             </div>
-            <div className={styles.wrapper}>
-              <div className={styles.cool_button}>
-                <div className={styles.button}>whitelist</div>
+            <a href='https://link.ghostdrive.com/discord' target='_target'>
+              <div className={styles.wrapper}>
+                <div className={styles.cool_button}>
+                  <div className={styles.button}>whitelist</div>
+                </div>
               </div>
-            </div>
+            </a>
             <div className={`${styles.line} ${styles.contain}`} />
           </div>
           <div className={styles.generate}>
@@ -400,14 +405,46 @@ function App() {
               <div className={styles.date}>Activation</div>
             </div>
             <div className={styles.social_media}>
-              <a href="https://link.ghostdrive.com/discord" target="_blank" className={`${styles.discord} ${styles.contain}`} />
-              <a href="https://t.me/ghostdrive_web3_chat" target="_blank" className={`${styles.telegram} ${styles.contain}`} />
-              <a href="https://link.ghostdrive.com/twitter" target="_blank" className={`${styles.twitter} ${styles.contain}`} />
-              <a href="https://link.ghostdrive.com/medium" target="_blank" className={`${styles.medium} ${styles.contain}`} />
-              <a href="https://link.ghostdrive.com/instagram" target="_blank" className={`${styles.instagram} ${styles.contain}`} />
-              <a href="https://link.ghostdrive.com/facebook" target="_blank" className={`${styles.facebook} ${styles.contain}`} />
-              <a href="https://link.ghostdrive.com/linkedin" target="_blank" className={`${styles.linkedin} ${styles.contain}`} />
-              <a href="https://link.ghostdrive.com/youtube" target="_blank" className={`${styles.youtube} ${styles.contain}`} />
+              <a
+                href='https://link.ghostdrive.com/discord'
+                target='_blank'
+                className={`${styles.discord} ${styles.contain}`}
+              />
+              <a
+                href='https://t.me/ghostdrive_web3_chat'
+                target='_blank'
+                className={`${styles.telegram} ${styles.contain}`}
+              />
+              <a
+                href='https://link.ghostdrive.com/twitter'
+                target='_blank'
+                className={`${styles.twitter} ${styles.contain}`}
+              />
+              <a
+                href='https://link.ghostdrive.com/medium'
+                target='_blank'
+                className={`${styles.medium} ${styles.contain}`}
+              />
+              <a
+                href='https://link.ghostdrive.com/instagram'
+                target='_blank'
+                className={`${styles.instagram} ${styles.contain}`}
+              />
+              <a
+                href='https://link.ghostdrive.com/facebook'
+                target='_blank'
+                className={`${styles.facebook} ${styles.contain}`}
+              />
+              <a
+                href='https://link.ghostdrive.com/linkedin'
+                target='_blank'
+                className={`${styles.linkedin} ${styles.contain}`}
+              />
+              <a
+                href='https://link.ghostdrive.com/youtube'
+                target='_blank'
+                className={`${styles.youtube} ${styles.contain}`}
+              />
             </div>
             <ul className={styles.navigation}>
               <li>Home</li>
