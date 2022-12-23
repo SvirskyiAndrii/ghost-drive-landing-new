@@ -400,14 +400,14 @@ function App() {
               <div className={styles.date}>Activation</div>
             </div>
             <div className={styles.social_media}>
-              <div className={`${styles.discord} ${styles.contain}`} />
-              <div className={`${styles.telegram} ${styles.contain}`} />
-              <div className={`${styles.twitter} ${styles.contain}`} />
-              <div className={`${styles.medium} ${styles.contain}`} />
-              <div className={`${styles.instagram} ${styles.contain}`} />
-              <div className={`${styles.facebook} ${styles.contain}`} />
-              <div className={`${styles.linkedin} ${styles.contain}`} />
-              <div className={`${styles.youtube} ${styles.contain}`} />
+              <a href="https://link.ghostdrive.com/discord" target="_blank" className={`${styles.discord} ${styles.contain}`} />
+              <a href="https://t.me/ghostdrive_web3_chat" target="_blank" className={`${styles.telegram} ${styles.contain}`} />
+              <a href="https://link.ghostdrive.com/twitter" target="_blank" className={`${styles.twitter} ${styles.contain}`} />
+              <a href="https://link.ghostdrive.com/medium" target="_blank" className={`${styles.medium} ${styles.contain}`} />
+              <a href="https://link.ghostdrive.com/instagram" target="_blank" className={`${styles.instagram} ${styles.contain}`} />
+              <a href="https://link.ghostdrive.com/facebook" target="_blank" className={`${styles.facebook} ${styles.contain}`} />
+              <a href="https://link.ghostdrive.com/linkedin" target="_blank" className={`${styles.linkedin} ${styles.contain}`} />
+              <a href="https://link.ghostdrive.com/youtube" target="_blank" className={`${styles.youtube} ${styles.contain}`} />
             </div>
             <ul className={styles.navigation}>
               <li>Home</li>

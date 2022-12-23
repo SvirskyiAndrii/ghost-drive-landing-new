@@ -686,10 +686,11 @@
       align-items: center;
       gap: 15px;
       margin: 0 0 43px 0;
-      div {
+      a {
         width: 48px;
         height: 48px;
         cursor: pointer;
+        user-select: none;
       }
       .discord {
         background-image: url('./assets/icons/Discord.svg');
@@ -935,7 +936,8 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        div {
+        & a {
+          display: block;
           width: 46px;
           height: 46px;
         }
